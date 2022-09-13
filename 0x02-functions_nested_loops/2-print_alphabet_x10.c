@@ -7,23 +7,26 @@
  * Returns 0
  */
 
+	
+#include "main.h"
+
 void print_alphabet_x10(void)
 {
-	int i;
-	int a;
+int alphabet;
+int count;
 
-	i = 0;
 
-	while (i < 10)
-	{
-		a = 0;
-		while (a < z)
-		{
-			_putchar(a);
-			a++;
-		}
-		_putchar('\n');
-		i++;
-	}
-	
+count = 0;
+while (count < 10)
+{
+for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
+{
+_putchar(alphabet);
+}
+
+count++;
+_putchar('\n');
+}
+
+
 }
