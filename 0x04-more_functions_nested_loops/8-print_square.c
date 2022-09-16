@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - chech the code
- *
- * return 0 always
- */
-void print_square(int size);
+*print_square - prints squares
+*@size: parameter
+*Return:returns nothing
+*/
+void print_square(int size)
 {
 int inc1, inc2;
 if (size > 0)
