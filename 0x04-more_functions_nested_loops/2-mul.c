@@ -1,7 +1,5 @@
 #include "main.h"
 /**
- * mul - fu#include "main.h"
-/**
 *mul - function that multipliestwo numbers
 *@a: first number
 *@b: second number
