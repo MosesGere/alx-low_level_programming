@@ -1,7 +1,7 @@
 #include "main.h"
 #define NULL 0
 /**
- * _strstr() function finds the first occurrence of the substring
+ * _strstr - locate and return pointer to first occurence of substring
  *
  * @needle: string to search
  *
