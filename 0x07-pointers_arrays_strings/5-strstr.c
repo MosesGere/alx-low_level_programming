@@ -1,5 +1,5 @@
 #include "main.h"
-
+#define NULL 0
 /**
  * _strstr() function finds the first occurrence of the substring
  *
@@ -7,7 +7,7 @@
  *
  * @haystack
  *
- * NULL if the substring is not found.
+ * Return: pointer to index of string at first occurence of whole substring
  */
 char *_strstr(char *haystack, char *needle)
 {
