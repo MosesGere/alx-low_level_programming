@@ -3,9 +3,9 @@
 /**
  * _strstr() function finds the first occurrence of the substring
  *
- * @needle - searching for the first occurrence of the substring
+ * @needle: string to search
  *
- * @haystack
+ * @haystack: target substring
  *
  * Return: pointer to index of string at first occurence of whole substring
  */
