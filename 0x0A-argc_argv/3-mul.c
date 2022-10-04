@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - print the result of the multiplication, followed by a new line.
  * @argc: number of argument on the command line.
